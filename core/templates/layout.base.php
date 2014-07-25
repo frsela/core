@@ -14,6 +14,16 @@
 		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 		<link rel="shortcut icon" href="<?php print_unescaped(image_path('', 'favicon.png')); ?>" />
 		<link rel="apple-touch-icon-precomposed" href="<?php print_unescaped(image_path('', 'favicon-touch.png')); ?>" />
+		<!-- WebApp integration -->
+		<link rel="apple-touch-icon" href="icons/touch-icon-iphone.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="icons/touch-icon-iphone-retina.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="icons/favicon.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="icons/touch-icon-ipad-retina.png">
+		<link rel="icon" href="icons/favicon.png">
+		<meta name="msapplication-TileImage" content="icons/tileicon.png">
+		<script type="text/javascript" src="3rdparty/add2home/js/add2home.js"></script>
+		<link href="3rdparty/add2home/css/add2home.css" rel="stylesheet">
+		<!-- EOF WebApp -->
 		<?php foreach ($_['cssfiles'] as $cssfile): ?>
 			<link rel="stylesheet" href="<?php print_unescaped($cssfile); ?>" type="text/css" media="screen" />
 		<?php endforeach; ?>
